@@ -4,12 +4,29 @@
 #include <string>
 using namespace std;
 
-//define visitor class here
+class Visitor {
+    string visitorName;
+    int ticketsBought;
+public:
+    Visitor(string v,int t) {
+        visitorName= v ;
+        ticketsBought=t;
+
+    }
+    Visitor() {
+        visitorName="unknown";
+        ticketsBought=0;
+
+    }
+    void displayInfo();
+    ~Visitor(){}
+    string getVisitorName();
+    int getTicketsBought();
 
 
 
 
-
+};
 
 
 #endif
