@@ -3,11 +3,14 @@
 
 #include "Animal.h"
 
-//define mammal class here
-
-
-
-
-
+class Mammel: Animal{
+    string furColor;
+Mammel( string fc){
+furColor=fc;
+}
+Mammel(){
+  furColor="unknown";
+}
+};
 
 #endif
