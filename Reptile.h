@@ -10,7 +10,10 @@
 
 
 
+class Reptile: Animal{
+    bool isVenomous;
 
+};
 
 
 #endif
